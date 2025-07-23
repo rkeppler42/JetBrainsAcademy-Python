@@ -1,1 +1,21 @@
-# JetBrainsAcademy-Python
+# 🐍 JetBrains Academy – Python
+
+This repository contains all the projects I’ve completed as part of the [Python Developer Track](https://hyperskill.org/courses/2-python-developer) on JetBrains Academy (Hyperskill).
+
+> **Note:** To earn the certification for this track, I must complete at least **95% of the tasks**, **95% of the applied core topics**, and finish **one graduate project**. Graduate projects will be marked accordingly.
+
+---
+
+## 📊 Progress
+
+![Topics](https://img.shields.io/badge/Topics_Completed-8%2F275-blue)
+![Core Topics](https://img.shields.io/badge/Applied_Core-25%2F195-blueviolet)
+![Graduate Projects](https://img.shields.io/badge/Graduate_Projects-0%2F1-lightgrey)
+
+---
+
+## 📁 Projects
+
+### 🟢 Easy
+
+- [Corner Shop Calculator]: **Completed**
