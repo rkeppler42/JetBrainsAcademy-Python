@@ -18,4 +18,4 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 ### 🟢 Easy
 
-- [Corner Shop Calculator]: **Completed**
+- [Corner Shop Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/corner-shop-calculator): **Completed**
