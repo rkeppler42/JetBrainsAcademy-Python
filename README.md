@@ -18,4 +18,5 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 ### 🟢 Easy
 
-- [Corner Shop Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/corner-shop-calculator): **Completed**
+- ✅ [Corner Shop Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/corner-shop-calculator): **Completed**
+- 🚧 [Zookeeper With Python](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/zookeeper-with-python): *In development*
