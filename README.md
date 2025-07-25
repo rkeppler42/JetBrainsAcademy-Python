@@ -8,8 +8,8 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 ## 📊 Progress
 
-![Topics](https://img.shields.io/badge/Topics_Completed-8%2F275-blue)
-![Core Topics](https://img.shields.io/badge/Applied_Core-25%2F195-blueviolet)
+![Topics](https://img.shields.io/badge/Topics_Completed-18%2F275-blue)
+![Core Topics](https://img.shields.io/badge/Applied_Core-16%2F195-blueviolet)
 ![Graduate Projects](https://img.shields.io/badge/Graduate_Projects-0%2F1-lightgrey)
 
 ---
@@ -19,4 +19,5 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 ### 🟢 Easy
 
 - ✅ [Corner Shop Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/corner-shop-calculator): **Completed**
-- 🚧 [Zookeeper With Python](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/zookeeper-with-python): *In development*
+- ✅ [Zookeeper With Python](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/zookeeper-with-python): **Completed**
+- 🚧 Chatbot with Python: **Not started**
