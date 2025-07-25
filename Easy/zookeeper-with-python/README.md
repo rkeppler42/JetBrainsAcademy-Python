@@ -123,3 +123,63 @@ It looks like we will soon have more rabbits!
 ---
 You've reached the end of the program. To check another habitat, please restart the watcher.
 ```
+
+---
+
+<details>
+<summary><strong>📌 Task 4 – Loop Until Exit</strong></summary>
+
+### 📝 Description
+
+Your program is now becoming more interactive. In this stage, users can view multiple habitats without restarting the program. The interaction continues in a loop until the user decides to exit.
+
+### 🎯 Objectives
+
+1. Repeat the behavior from the previous task in a **loop**;
+2. Prompt the user each time with:  
+   `Please enter the number of the habitat you would like to view:`
+3. If the user types `exit`, the program ends;
+4. After exiting, print:  
+   `See you later!`
+
+### 💡 Example Session (simplified)
+
+```
+Please enter the number of the habitat you would like to view: > 3
+
+Switching on the camera in the goose habitat...
+
+                                    _
+                                ,-"" "".
+                              ,'  ____  `.
+                            ,'  ,'    `.  `._
+   (`.         _..--.._   ,'  ,'        \    \
+  (`-.\    .-""        ""'   /          (  d _b
+ (`._  `-"" ,._             (            `-(   \
+ <_  `     (  <`<            \              `-._\
+  <`-       (__< <           :
+   (__        (_<_<          ;
+    `------------------------------------------
+The goose is staring intently at you... Maybe it's time to change the channel?
+Please enter the number of the habitat you would like to view: > 1
+
+Switching on the camera in the lion habitat...
+                                               ,w.
+                                             ,YWMMw  ,M  ,
+                        _.---.._   __..---._.'MMMMMw,wMWmW,
+                   _.-""        '''           YP"WMMMMMMMMMb,
+                .-' __.'                   .'     MMMMW^WMMMM;
+    _,        .'.-'"; `,       /`     .--""      :MMM[==MWMW^;
+ ,mM^"     ,-'.'   /   ;      ;      /   ,       MMMMb_wMW"  @\
+,MM:.    .'.-'   .'     ;     `\    ;     `,     MMMMMMMW `"=./`-,
+WMMm__,-'.'     /      _.\      F'''-+,,   ;_,_.dMMMMMMMM[,_ / `=_}
+"^MP__.-'    ,-' _.--""   `-,   ;       \  ; ;MMMMMMMMMMW^``; __|
+           /   .'            ; ;         )  )`{  \ `"^W^`,   \  :
+          /  .'             /  (       .'  /     Ww._     `.  `"
+         /  Y,              `,  `-,=,_{   ;      MMMP`""-,  `-._.-,
+        (--, )                `,_ / `) \/"")      ^"      `-, -;"\:
+The lion is roaring!
+Please enter the number of the habitat you would like to view: > exit
+See you later!
+```
+
