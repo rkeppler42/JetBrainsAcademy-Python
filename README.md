@@ -8,13 +8,16 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 ## 📊 Progress
 
-![Topics](https://img.shields.io/badge/Topics_Completed-18%2F275-blue)
-![Core Topics](https://img.shields.io/badge/Applied_Core-16%2F195-blueviolet)
+![Topics](https://img.shields.io/badge/Topics_Completed-18%2F275_(6.5%25)-blue)
+![Core Topics](https://img.shields.io/badge/Applied_Core-16%2F195_(8.2%25)-blueviolet)
 ![Graduate Projects](https://img.shields.io/badge/Graduate_Projects-0%2F1-lightgrey)
+
 
 ---
 
 ## 📁 Projects
+
+> 💡 Difficulty levels: 🟢 Easy | 🟡 Medium | 🔴 Hard
 
 ### 🟢 Easy
 
