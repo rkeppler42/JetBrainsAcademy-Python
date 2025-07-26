@@ -17,7 +17,7 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 ## 📁 Projects
 
-> 💡 Difficulty levels: 🟢 Easy | 🟡 Medium | 🔴 Hard
+> 💡 Difficulty levels: 🟢 Easy | 🟡 Medium | 🔴 Hard | 💣 Challenging
 
 ### 🟢 Easy
 
