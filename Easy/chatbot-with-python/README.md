@@ -69,3 +69,48 @@ What a great name you have, Max!
 </details>
 
 ---
+
+<details>
+<summary><strong>📌 Task 3 – Guess the User's Age</strong></summary>
+
+### 📝 Description
+
+In this stage, your bot will try to guess the user's age using a clever math trick based on the **Chinese Remainder Theorem**. It will ask for the remainders of the user's age when divided by 3, 5, and 7, then calculate the result.
+
+The age is computed with this formula:
+
+`age = (remainder3 \* 70 + remainder5 \* 21 + remainder7 \* 15) % 105`
+
+This formula guarantees correct results for ages between 0 and 104.
+
+### 🎯 Objectives
+
+1. Greet the user and ask for their name as before;
+2. Ask:
+  ```
+Let me guess your age.\
+Enter remainders of dividing your age by 3, 5 and 7.
+   ```
+3. Read three integers from the user (on separate lines);
+4. Calculate and print their age using the formula above;
+5. Output:
+   ```
+   Your age is {your\_age}; that's a good time to start programming!
+   ```
+
+### 💡 Example Dialogue
+```
+Hello! My name is Aid.\
+I was created in 2025.\
+Please, remind me your name.
+> Max
+What a great name you have, Max!\
+Let me guess your age.\
+Enter remainders of dividing your age by 3, 5 and 7.
+> 1
+> 2
+> 1
+Your age is 22; that's a good time to start programming!
+```
+
+</details>
