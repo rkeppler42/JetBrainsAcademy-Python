@@ -114,3 +114,99 @@ Your age is 22; that's a good time to start programming!
 ```
 
 </details>
+
+---
+
+<details>
+<summary><strong>📌 Task 4 – Count to a Number</strong></summary>
+
+### 📝 Description
+
+Your bot just learned how to do arithmetic! In this stage, it will demonstrate its skills by counting from `0` up to any number the user inputs.
+
+This helps you practice `for` loops and reading integers from input.
+
+### 🎯 Objectives
+
+1. Continue the dialogue as in previous tasks;
+2. Add the line:  
+   `Now I will prove to you that I can count to any number you want.`
+3. Read a positive integer from the user;
+4. Count from `0` to that number (inclusive), printing each number followed by an exclamation mark:  
+   ```
+   0 !  
+   1 !  
+   2 !  
+   ...
+   ```
+5. After the count, print:  
+   `Completed, have a nice day!`
+
+### 💡 Example Dialogue (simplified)
+
+```
+> 5
+0!
+1!
+2!
+3!
+4!
+5!
+Completed, have a nice day!
+```
+
+</details>
+
+---
+
+<details>
+<summary><strong>📌 Task 5 – Quiz Time</strong></summary>
+
+### 📝 Description
+
+In the final stage, your bot becomes a teacher! It will quiz the user with a multiple-choice question about programming and only allow the session to end once the correct answer is given.
+
+This task helps you practice `while` loops, input validation, and simple logic.
+
+### 🎯 Objectives
+
+1. Display a multiple-choice question that ends with a `?`
+2. Each answer option must start with a number and a dot (`1.`, `2.` etc.)
+3. Read user input
+4. If the answer is incorrect, print:  
+   `Please, try again.`
+5. Repeat until the user selects the correct answer
+6. Upon success, print:  
+   `Congratulations, have a nice day!`
+
+### 💡 Example Dialogue (simplified)
+
+```
+Hello! My name is Aid.
+I was created in 2025.
+Please, remind me your name.
+> Max
+What a great name you have, Max!
+Let me guess your age.
+Enter remainders of dividing your age by 3, 5 and 7.
+> 1 
+> 2
+> 1
+Your age is 22; that's a good time to start programming!
+Now I will prove to you that I can count to any number you want.
+> 3
+0 !
+1 !
+2 !
+3 !
+Let's test your programming knowledge.
+Why do we use methods?
+1. To repeat a statement multiple times.
+2. To decompose a program into several small subroutines.
+3. To determine the execution time of a program.
+4. To interrupt the execution of a program.
+> 4
+Please, try again.
+> 2
+Congratulations, have a nice day!
+```

@@ -17,7 +17,7 @@ def guess_age():
     your_age = (remainder_of_3 * 70 + remainder_of_5 * 21 + remainder_of_7 * 15) % 105
     print(f"Your age is {your_age}; that's a good time to start programming!")
 
-def counting():
+def count():
     print("Now I will prove to you that I can count to any number you want.")
     number = int(input())
     counter = 0
@@ -27,7 +27,26 @@ def counting():
     print("Completed, have a nice day!")
 
 
-greet("Aid", 2025)
+def test():
+    print("Let's test your programming knowledge.")
+    print("Why do we use methods?")
+    print("1. To repeat a statement multiple times.")
+    print("2. To decompose a program into several small subroutines.")
+    print("3. To determine the execution time of a program.")
+    print("4. To interrupt the execution of a program.")
+    answer = int(input())
+    while answer != 2:
+        print("Please, try again.")
+        answer = int(input())
+
+
+def end():
+    print('Congratulations, have a nice day!')
+
+
+greet('Aid', '2025')  # change it as you need
 remind_name()
 guess_age()
-counting()
+count()
+test()
+end()
