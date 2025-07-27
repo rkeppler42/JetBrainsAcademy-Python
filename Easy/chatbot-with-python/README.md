@@ -87,16 +87,16 @@ This formula guarantees correct results for ages between 0 and 104.
 
 1. Greet the user and ask for their name as before;
 2. Ask:
-  ```
+```
 Let me guess your age.\
 Enter remainders of dividing your age by 3, 5 and 7.
-   ```
+```
 3. Read three integers from the user (on separate lines);
 4. Calculate and print their age using the formula above;
 5. Output:
-   ```
-   Your age is {your\_age}; that's a good time to start programming!
-   ```
+```
+Your age is {your\_age}; that's a good time to start programming!
+```
 
 ### 💡 Example Dialogue
 ```
@@ -133,14 +133,14 @@ This helps you practice `for` loops and reading integers from input.
    `Now I will prove to you that I can count to any number you want.`
 3. Read a positive integer from the user;
 4. Count from `0` to that number (inclusive), printing each number followed by an exclamation mark:  
-   ```
-   0 !  
-   1 !  
-   2 !  
-   ...
-   ```
+```
+0 !  
+1 !  
+2 !  
+...
+```
 5. After the count, print:  
-   `Completed, have a nice day!`
+ `Completed, have a nice day!`
 
 ### 💡 Example Dialogue (simplified)
 
