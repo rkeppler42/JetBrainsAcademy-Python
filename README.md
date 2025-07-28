@@ -9,8 +9,8 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 ## 📊 Progress
 
-![Topics](https://img.shields.io/badge/Topics_Completed-20%2F275_(7.3%25)-blue)
-![Core Topics](https://img.shields.io/badge/Applied_Core-18%2F195_(9.2%25)-blueviolet)
+![Topics](https://img.shields.io/badge/Topics_Completed-26%2F275_(9.5%25)-blue)
+![Core Topics](https://img.shields.io/badge/Applied_Core-24%2F195_(12.3%25)-blueviolet)
 ![Graduate Projects](https://img.shields.io/badge/Graduate_Projects-0%2F1-lightgrey)
 
 ---
@@ -27,4 +27,4 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 ### 🟡 Medium
 
-- 🚧 [Bill Splitter](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Medium/bill-splitter): *Not started*
+- 🚧 [Bill Splitter](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Medium/bill-splitter): *In progress*
