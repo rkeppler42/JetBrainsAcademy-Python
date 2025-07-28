@@ -5,6 +5,9 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 > **Note:** To earn the certification for this track, I must complete at least **95% of the tasks**, **95% of the applied core topics**, and finish **one graduate project**.  
 > Graduate projects will be marked accordingly.
 
+> 📌 The final version of each project reflects only the **last task's implementation**.  
+> To view the code for earlier stages, please check the corresponding **commits** in the project history.
+
 ---
 
 ## 📊 Progress
@@ -19,6 +22,8 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 > 💡 Difficulty levels: 🟢 Easy | 🟡 Medium | 🔴 Hard | 💣 Challenging
 
+> 💼 Graduate projects are marked with this icon next to their title.
+
 ### 🟢 Easy
 
 - ✅ [Corner Shop Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/corner-shop-calculator): **Completed**
@@ -28,3 +33,47 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 ### 🟡 Medium
 
 - 🚧 [Bill Splitter](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Medium/bill-splitter): *In progress*
+- ⏳ Currency Converter: *Not Started*
+- ⏳ Loan Calculator: *Not Started*
+- ⏳ Coffee Machine: *Not Started*
+- ⏳ Rock-Paper-Scissors: *Not Started*
+- ⏳ Last Pencil: *Not Started*
+- ⏳ Simple Tic-Tac-Toe with Python: *Not Started*
+- ⏳ Markdown Editor: *Not Started*
+- ⏳ Learning Progress Tracker: *Not Started*
+- ⏳ Dominoes: *Not Started*
+- ⏳ Honest Calculator: *Not Started*
+- ⏳ Web Scraper: *Not Started*
+- ⏳ File Manager: *Not Started*
+- ⏳ X-mas Tree: *Not Started*
+
+### 🔴 Hard
+
+- ⏳ Text Based Adventure Game: *Not Started*
+- ⏳ Duskers: *Not Started*
+- ⏳ Text-Based Browser: *Not Started*
+- ⏳ University Admission Procedure: *Not Started*
+- ⏳ Arithmetic Exam Application: *Not Started*
+- ⏳ Regex Engine: *Not Started*
+- ⏳ Traffic Light: *Not Started*
+- ⏳ Tic-Tac-Toe with AI: *Not Started*
+- ⏳ Simple Banking System: *Not Started*
+- ⏳ Smart Calendar: *Not Started*
+- ⏳ Easy Rider Bus Company 💼: *Not Started*
+- ⏳ Readability Score: *Not Started*
+- ⏳ Sorting Tool with Python 💼: *Not Started*
+- ⏳ HR Data Analysis: *Not Started*
+- ⏳ Text Generator: *Not Started*
+
+### 💣 Challenging
+
+- ⏳ Memorization Tool 💼: *Not Started*
+- ⏳ Flashcards 💼: *Not Started*
+- ⏳ Smart Calculator: *Not Started*
+- ⏳ To-Do List: *Not Started*
+- ⏳ Multilingual Online Translator 💼: *Not Started*
+- ⏳ Password Hacker with Python 💼: *Not Started*
+- ⏳ Static Code Analyzer 💼: *Not Started*
+- ⏳ Convoy Shipping Company: *Not Started*
+- ⏳ Algorithms with IMDB: *Not Started*
+- ⏳ Calculator for Investors: *Not Started*
