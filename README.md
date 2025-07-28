@@ -15,6 +15,7 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 ![Topics](https://img.shields.io/badge/Topics_Completed-26%2F275_(9.5%25)-blue)
 ![Core Topics](https://img.shields.io/badge/Applied_Core-24%2F195_(12.3%25)-blueviolet)
 ![Graduate Projects](https://img.shields.io/badge/Graduate_Projects-0%2F1-lightgrey)
+![Projects](https://img.shields.io/badge/Projects_Completed-3%2F52_(5.8%25)-success)
 
 ---
 
