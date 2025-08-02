@@ -120,3 +120,81 @@ No one is joining for the party
 ```
 
 </details>
+
+---
+
+<details>
+<summary><strong>📌 Task 3 – Lucky One</strong></summary>
+
+### 📝 Description
+
+Time to add some fun! In this stage, your program will allow users to **randomly select one friend** who will not have to pay their share of the bill. Everyone else will cover the cost equally.
+
+The feature is **optional** — users decide if they want to use it.
+
+### 🎯 Objectives
+
+1. Continue from the previous stage:
+   - Handle invalid input (0 or negative friends) with:
+     `No one is joining for the party`
+
+2. Ask the user:
+   `Do you want to use the "Who is lucky?" feature? Write Yes/No:`
+
+3. Behavior:
+   - If the user enters `Yes`:
+     - Randomly select a friend;
+     - Print: `{Name} is the lucky one!`
+   - Otherwise:
+     - Print: `No one is going to be lucky`
+
+4. **Do not** print outputs from previous tasks again.
+
+### 💡 Example 1: The feature is used
+
+```
+Enter the number of friends joining (including you):
+> 5
+Enter the name of every friend (including you), each on a new line:
+> Marc
+> Jem
+> Monica
+> Anna
+> Jason
+Enter the total bill value:
+> 100
+Do you want to use the "Who is lucky?" feature? Write Yes/No:
+> Yes
+
+Jem is the lucky one!
+```
+
+### 💡 Example 2: The feature is skipped
+
+```
+Enter the number of friends joining (including you):
+> 5
+Enter the name of every friend (including you), each on a new line:
+> Marc
+> Jem
+> Monica
+> Anna
+> Jason
+Enter the total bill value:
+> 100
+Do you want to use the "Who is lucky?" feature? Write Yes/No:
+> No
+
+No one is going to be lucky
+```
+
+### 💡 Example 3: Invalid Input
+
+```
+Enter the number of friends joining (including you):
+> 0
+
+No one is joining for the party
+```
+
+</details>
