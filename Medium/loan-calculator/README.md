@@ -1,39 +1,46 @@
-# 🧮 Loan Calculator
+🧮 Loan Calculator
 
-A beginner-friendly console program simulating a loan calculator.
+A small console-based Python project built as part of the Hyperskill Python track.
+The goal is to progressively implement a fully functional loan calculator by completing four tasks.
 
----
+🚀 Project Progress
 
-## ✅ Tasks Overview
+Task 1 — Display Item Prices
 
-This project is divided into four progressive tasks. Each task builds upon the previous one.
+Task 2
 
----
+Task 3
 
-<details>
-<summary><strong>📌 Task 1 – Display Item Prices</strong></summary>
+Task 4
 
-### 📝 Description
+📚 About the Tasks
 
-Let's think about what a loan calculator should be able to do. In general, it takes several parameters like a loan principal and interest, calculates the values the user wants to know (for example, monthly payment or overpayment), and outputs them to the user.
+Each task introduces a new concept and expands the program's functionality — from simple input/output to full loan repayment logic.
 
-### 🎯 Objectives
+<details> <summary><strong>📌 Task 1 – Display Item Prices</strong></summary>
+📝 Description
 
-- Prompt the user to enter their loan principal.
-- Prompt the user to enter their monthly payment.
-- Calculate and display the number of months required to repay the loan by dividing the loan principal by the monthly payment.
+The first step is understanding the basic idea behind a loan calculator:
+ask for the loan principal, ask for the monthly payment, and compute how many months are needed to repay it.
 
-### 💡 Example Output
+🎯 Objectives
 
-```
+Ask the user for:
+
+the loan principal
+
+the monthly payment
+
+Compute the number of months required to repay the loan using simple division
+
+Display the result in the console
+
+💡 Example Output
 Enter the loan principal:
 > 1000
 Enter the monthly payment:
 > 200
 
 It will take 5 months to repay the loan
-```
 
 </details>
-
----
