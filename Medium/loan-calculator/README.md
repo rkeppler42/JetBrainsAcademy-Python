@@ -6,7 +6,7 @@ The goal is to progressively implement a fully functional loan calculator by com
 
 ## 🚀 Project Progress  
 - [x] **Task 1** — Display Item Prices  
-- [ ] **Task 2**  
+- [x] **Task 2** — Dreamworld
 - [ ] **Task 3**  
 - [ ] **Task 4**
 
