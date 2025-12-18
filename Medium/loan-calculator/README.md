@@ -7,8 +7,8 @@ The goal is to progressively implement a fully functional loan calculator by com
 ## 🚀 Project Progress  
 - [x] **Task 1** — Display Item Prices  
 - [x] **Task 2** — Dreamworld
-- [ ] **Task 3**  
-- [ ] **Task 4**
+- [x] **Task 3**  
+- [x] **Task 4**
 
 ---
 
@@ -259,7 +259,6 @@ Overpayment = 274880
 **Invalid parameters**
 
 ```
-
 > python creditcalc.py --type=diff --principal=1000000 --payment=104000
 
 Incorrect parameters.
