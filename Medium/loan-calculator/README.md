@@ -180,3 +180,89 @@ Your loan principal = 800000!
 ```
 
 </details>
+
+---
+
+<details>
+<summary><strong>📌 Task 4 — Differentiated Payments, Validation & Overpayment</strong></summary>
+
+### 📝 Description  
+In the final stage, the loan calculator supports **two types of repayment**:
+
+- **Annuity payments** (`--type=annuity`): fixed monthly payment  
+- **Differentiated payments** (`--type=diff`): decreasing payments over time  
+
+The program must now:
+- parse **command-line arguments**,
+- validate input parameters,
+- compute **monthly payments**, **loan principal**, or **number of periods**,
+- and calculate the **overpayment** (total interest paid).
+
+The `--type` argument is mandatory, and incorrect or insufficient parameters must result in:
+
+```
+Incorrect parameters.
+```
+
+### 🎯 Objectives  
+- Support both **annuity** and **differentiated** payment types.
+- Validate all input parameters:
+  - missing arguments
+  - invalid combinations
+  - negative values
+- Calculate:
+  - monthly payments
+  - loan principal
+  - number of periods
+- Compute and display **overpayment**.
+- Round up all floating-point values.
+
+### 🔢 Differentiated Payment Formula  
+
+```
+Dₘ = P / n + i * (P − P * (m − 1) / n)
+```
+
+
+Where:
+- `P` — loan principal  
+- `n` — number of payments  
+- `i` — nominal monthly interest rate  
+- `m` — current month  
+
+### 💡 Examples
+
+**Differentiated payments**
+
+```
+> python creditcalc.py --type=diff --principal=1000000 --periods=10 --interest=10
+
+Month 1: payment is 108334
+Month 2: payment is 107500
+Month 3: payment is 106667
+...
+Month 10: payment is 100834
+Overpayment = 45837
+```
+
+
+**Annuity payment**
+
+```
+> python creditcalc.py --type=annuity --principal=1000000 --periods=60 --interest=10
+
+Your annuity payment = 21248!
+Overpayment = 274880
+```
+
+
+**Invalid parameters**
+
+```
+
+> python creditcalc.py --type=diff --principal=1000000 --payment=104000
+
+Incorrect parameters.
+```
+
+</details>
