@@ -5,10 +5,10 @@ The goal is to progressively implement a fully functional loan calculator by com
 ---
 
 ## 🚀 Project Progress  
-- [x] **Task 1** — Display Item Prices  
+- [x] **Task 1** — Display item prices  
 - [x] **Task 2** — Dreamworld
-- [x] **Task 3**  
-- [x] **Task 4**
+- [x] **Task 3** — Annuity payment
+- [x] **Task 4** — Differentiate payment
 
 ---
 
