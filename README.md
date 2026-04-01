@@ -12,10 +12,10 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 ## 📊 Progress
 
-![Topics](https://img.shields.io/badge/Topics_Completed-42%2F274_(15.3%25)-blue)
-![Core Topics](https://img.shields.io/badge/Applied_Core-41%2F193_(21.2%25)-blueviolet)
+![Topics](https://img.shields.io/badge/Topics_Completed-45%2F273_(16.5%25)-blue)
+![Core Topics](https://img.shields.io/badge/Applied_Core-42%2F220_(19.1%25)-blueviolet)
 ![Graduate Projects](https://img.shields.io/badge/Graduate_Projects-0%2F1-lightgrey)
-![Projects](https://img.shields.io/badge/Projects_Completed-5%2F52_(9.6%25)-success)
+![Projects](https://img.shields.io/badge/Projects_Completed-5%2F54_(9.3%25)-success)
 
 ---
 
@@ -30,8 +30,8 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 - ✅ [Corner Shop Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/corner-shop-calculator): **Completed**
 - ✅ [Zookeeper with Python](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/zookeeper-with-python): **Completed**
 - ✅ [Chatbot with Python](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/chatbot-with-python): **Completed**
-- ✅ [Loan Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Medium/loan-calculator): **Completed**
-- ✅ [Bill Splitter](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Medium/bill-splitter): **Completed**
+- ✅ [Loan Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/loan-calculator): **Completed**
+- ✅ [Bill Splitter](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/bill-splitter): **Completed**
 - ⏳ Last Pencil: *Not Started*
 - ⏳ Coffee Machine: *Not Started*
 
