@@ -30,8 +30,8 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 - ✅ [Corner Shop Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/corner-shop-calculator): **Completed**
 - ✅ [Zookeeper with Python](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/zookeeper-with-python): **Completed**
 - ✅ [Chatbot with Python](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/chatbot-with-python): **Completed**
-- ✅ [Loan Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Medium/loan-calculator): **Completed**
-- ✅ [Bill Splitter](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Medium/bill-splitter): **Completed**
+- ✅ [Loan Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/loan-calculator): **Completed**
+- ✅ [Bill Splitter](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/bill-splitter): **Completed**
 - ⏳ Last Pencil: *Not Started*
 - ⏳ Coffee Machine: *Not Started*
 
