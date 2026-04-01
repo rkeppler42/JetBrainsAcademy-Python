@@ -15,7 +15,7 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 ![Topics](https://img.shields.io/badge/Topics_Completed-42%2F274_(15.3%25)-blue)
 ![Core Topics](https://img.shields.io/badge/Applied_Core-41%2F193_(21.2%25)-blueviolet)
 ![Graduate Projects](https://img.shields.io/badge/Graduate_Projects-0%2F1-lightgrey)
-![Projects](https://img.shields.io/badge/Projects_Completed-4%2F52_(7.7%25)-success)
+![Projects](https://img.shields.io/badge/Projects_Completed-5%2F52_(9.6%25)-success)
 
 ---
 
@@ -34,8 +34,8 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 ### 🟡 Medium
 
 - ✅ [Loan Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Medium/loan-calculator): **Completed**
+- ✅ [Bill Splitter](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Medium/bill-splitter): **Completed**
 - ⏳ Currency Converter: *Not Started*
-- 🚧 Bill Splitter: *Not Started*: *In progress*
 - ⏳ Coffee Machine: *Not Started*
 - ⏳ Rock-Paper-Scissors: *Not Started*
 - ⏳ Last Pencil: *Not Started*
