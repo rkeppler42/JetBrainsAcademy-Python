@@ -7,9 +7,9 @@ The goal is to progressively build a two-player pencil game where the player who
 
 ## 🚀 Project Progress
 
-- [ ] **Stage 1** — Print the pencils
-- [ ] **Stage 2** — Initial conditions
-- [ ] **Stage 3** — Take turns
+- [x] **Stage 1** — Print the pencils
+- [x] **Stage 2** — Initial conditions
+- [x] **Stage 3** — Take turns
 - [ ] **Stage 4** — Validation & winner
 - [ ] **Stage 5** — The bot
 
