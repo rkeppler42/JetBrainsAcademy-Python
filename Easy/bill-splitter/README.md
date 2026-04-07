@@ -9,8 +9,8 @@ The goal is to progressively build a program that splits a restaurant bill among
 
 - [x] **Stage 1** — Build the friends dictionary
 - [x] **Stage 2** — Split the bill
-- [ ] **Stage 3** — Who is lucky?
-- [ ] **Stage 4** — Update the dictionary
+- [x] **Stage 3** — Who is lucky?
+- [x] **Stage 4** — Update the dictionary
 
 ---
 
