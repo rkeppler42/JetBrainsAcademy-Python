@@ -10,8 +10,8 @@ The goal is to progressively build a two-player pencil game where the player who
 - [x] **Stage 1** — Print the pencils
 - [x] **Stage 2** — Initial conditions
 - [x] **Stage 3** — Take turns
-- [ ] **Stage 4** — Validation & winner
-- [ ] **Stage 5** — The bot
+- [x] **Stage 4** — Validation & winner
+- [x] **Stage 5** — The bot
 
 ---
 
@@ -23,7 +23,6 @@ Each stage introduces a new concept and expands the program's functionality — 
 
 <details>
 <summary><strong>📌 Stage 1 — Print the Pencils</strong></summary>
-
 
 ### 📝 Description
 
@@ -47,7 +46,6 @@ Your turn!
 
 <details>
 <summary><strong>📌 Stage 2 — Initial Conditions</strong></summary>
-
 
 ### 📝 Description
 
@@ -90,7 +88,6 @@ Jack is going first!
 
 <details>
 <summary><strong>📌 Stage 3 — Take Turns</strong></summary>
-
 
 ### 📝 Description
 
@@ -144,7 +141,6 @@ Jack's turn:
 
 <details>
 <summary><strong>📌 Stage 4 — Validation & Winner</strong></summary>
-
 
 ### 📝 Description
 
@@ -227,7 +223,6 @@ John won!
 <details>
 <summary><strong>📌 Stage 5 — The Bot</strong></summary>
 
-
 ### 📝 Description
 
 Time to face a worthy opponent! The second player (Jack) is now a bot that follows a mathematically optimal winning strategy. The key insight: if the number of pencils is a multiple of 4, the current player is in a losing position — no matter what they do.
@@ -307,6 +302,7 @@ John won!
 ## ▶️ How to Run
 
 Make sure you have Python installed, then run:
+
 ```
 python last_pencil.py
 ```
