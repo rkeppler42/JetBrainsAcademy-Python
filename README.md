@@ -15,7 +15,7 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 ![Topics](<https://img.shields.io/badge/Topics_Completed-67%2F273_(24.5%25)-blue>)
 ![Core Topics](<https://img.shields.io/badge/Applied_Core-63%2F220_(28.6%25)-blueviolet>)
 ![Graduate Projects](https://img.shields.io/badge/Graduate_Projects-0%2F1-lightgrey)
-![Projects](<https://img.shields.io/badge/Projects_Completed-7%2F45_(15.6%25)-success>)
+![Projects](<https://img.shields.io/badge/Projects_Completed-7%2F43_(16.3%25)-success>)
 
 ---
 
@@ -37,6 +37,7 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 ### 🟡 Medium
 
+- 🚧 Hangman: _In Progress_
 - ⏳ Currency Converter: _Not Started_
 - ⏳ Rock-Paper-Scissors: _Not Started_
 - ⏳ Simple Tic-Tac-Toe with Python: _Not Started_
@@ -47,7 +48,6 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 - ⏳ Web Scraper: _Not Started_
 - ⏳ File Manager: _Not Started_
 - ⏳ X-mas Tree: _Not Started_
-- ⏳ Hangman: _Not Started_
 - ⏳ Simple Banking System: _Not Started_
 - ⏳ Regex Engine: _Not Started_
 - ⏳ Arithmetic Exam Application: _Not Started_
