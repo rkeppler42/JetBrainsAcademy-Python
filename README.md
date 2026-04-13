@@ -12,10 +12,10 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 ## 📊 Progress
 
-![Topics](<https://img.shields.io/badge/Topics_Completed-60%2F273_(22.0%25)-blue>)
-![Core Topics](<https://img.shields.io/badge/Applied_Core-42%2F220_(26.0%25)-blueviolet>)
+![Topics](<https://img.shields.io/badge/Topics_Completed-67%2F273_(24.5%25)-blue>)
+![Core Topics](<https://img.shields.io/badge/Applied_Core-63%2F220_(28.6%25)-blueviolet>)
 ![Graduate Projects](https://img.shields.io/badge/Graduate_Projects-0%2F1-lightgrey)
-![Projects](<https://img.shields.io/badge/Projects_Completed-6%2F54_(11.1%25)-success>)
+![Projects](<https://img.shields.io/badge/Projects_Completed-7%2F45_(15.6%25)-success>)
 
 ---
 
@@ -33,7 +33,7 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 - ✅ [Loan Calculator](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/loan-calculator): **Completed**
 - ✅ [Bill Splitter](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/bill-splitter): **Completed**
 - ✅ [Last Pencil](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/last-pencil): **Completed**
-- ⏳ Coffee Machine: _Not Started_
+- ✅ [Coffee Machine](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Easy/coffee-machine): **Completed**
 
 ### 🟡 Medium
 
