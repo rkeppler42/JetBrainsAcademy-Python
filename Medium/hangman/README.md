@@ -7,7 +7,7 @@ The goal is to progressively build the classic Hangman game — from a simple an
 
 ## 🚀 Project Progress
 
-- [ ] **Stage 1** — Announcement
+- [x] **Stage 1** — Announcement
 - [ ] **Stage 2** — Let's play a game
 - [ ] **Stage 3** — Make your choice
 - [ ] **Stage 4** — Hints
