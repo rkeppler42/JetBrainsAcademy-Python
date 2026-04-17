@@ -10,7 +10,7 @@ The goal is to progressively build the classic Hangman game — from a simple an
 - [x] **Stage 1** — Announcement
 - [x] **Stage 2** — Let's play a game
 - [x] **Stage 3** — Make your choice
-- [ ] **Stage 4** — Hints
+- [x] **Stage 4** — Hints
 - [ ] **Stage 5** — Keep trying
 - [ ] **Stage 6** — The value of life
 - [ ] **Stage 7** — Error!
