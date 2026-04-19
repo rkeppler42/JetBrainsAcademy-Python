@@ -2,8 +2,7 @@ import random
 
 
 def show_title() -> None:
-    """Prints the title of the game.
-    """
+    """Prints the title of the game."""
     print("H A N G M A N")
 
 
@@ -35,27 +34,41 @@ def print_hidden_word(hidden_word: str) -> None:
     print(hidden_word)
 
 
-def process_user_guess(word: str, hidden_word: str, guess: str) -> str:
+def process_user_guess(
+    word: str, hidden_word: str, guess: str, attempts: int
+) -> tuple[str, int]:
     """Process the user guess.
 
     :param word: the random word the user has to guess
     :param hidden_word: the hidden word the user has to guess
     :param guess: the guessed letter
-    :return: the hidden word with the right user guess
+    :param attempts: the number of times that the user can guess wrongly
+    :return: hidden word and number of attempts still has
     """
-    if guess in word:
+    if guess in word and guess not in hidden_word:
         for i in range(len(word)):
             if word[i] == guess:
-                hidden_word = hidden_word[:i] + guess + hidden_word[i+1:]
+                hidden_word = hidden_word[:i] + guess + hidden_word[i + 1 :]
     else:
-        print("That letter doesn't appear in the word.")
-    return hidden_word
+        if guess in hidden_word:
+            print("No improvements.")
+        else:
+            print("That letter doesn't appear in the word.")
+        attempts -= 1
+    return hidden_word, attempts
 
 
-def print_bye() -> None:
-    """Prints the exit message."""
-    print()
-    print("Thanks for playing!")
+def print_bye(word: str, hidden_word: str) -> None:
+    """Prints the exit message.
+
+    :param word: the random word the user has to guess
+    :param hidden_word: the hidden word with the user attempts
+    """
+    if word == hidden_word:
+        print("You guessed the word!")
+        print("You survived!")
+    else:
+        print("You lost!")
 
 
 def main() -> None:
@@ -65,12 +78,11 @@ def main() -> None:
     list_of_words = ["python", "java", "swift", "javascript"]
     word = choose_word(list_of_words)
     hidden_word = hide_word(word)
-    while attempts > 0:
+    while attempts > 0 and hidden_word != word:
         print_hidden_word(hidden_word)
         guess = input("Input a letter: > ")
-        hidden_word = process_user_guess(word, hidden_word, guess)
-        attempts -= 1
-    print_bye()
+        hidden_word, attempts = process_user_guess(word, hidden_word, guess, attempts)
+    print_bye(word, hidden_word)
 
 
 if __name__ == "__main__":
