@@ -12,9 +12,9 @@ The goal is to progressively build the classic Hangman game — from a simple an
 - [x] **Stage 3** — Make your choice
 - [x] **Stage 4** — Hints
 - [x] **Stage 5** — Keep trying
-- [ ] **Stage 6** — The value of life
-- [ ] **Stage 7** — Error!
-- [ ] **Stage 8** — Menu, please
+- [x] **Stage 6** — The value of life
+- [x] **Stage 7** — Error!
+- [x] **Stage 8** — Menu, please
 
 ---
 
