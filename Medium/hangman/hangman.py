@@ -1,4 +1,5 @@
 import random
+import string
 
 
 def show_title() -> None:
@@ -35,16 +36,32 @@ def print_hidden_word(hidden_word: str) -> None:
 
 
 def process_user_guess(
-    word: str, hidden_word: str, guess: str, attempts: int
-) -> tuple[str, int]:
+    word: str, hidden_word: str, guess: str, attempts: int, letters_attempted: list
+) -> tuple[str, int, list]:
     """Process the user guess.
 
     :param word: the random word the user has to guess
     :param hidden_word: the hidden word the user has to guess
     :param guess: the guessed letter
     :param attempts: the number of times that the user can guess wrongly
+    :param letters_attempted: the letters already guessed
     :return: hidden word and number of attempts still has
     """
+    if (
+        len(guess) != 1
+        or guess not in string.ascii_lowercase
+        or guess in letters_attempted
+    ):
+        if len(guess) != 1:
+            print("Please, input a single letter.")
+            return hidden_word, attempts, letters_attempted
+        elif guess in letters_attempted:
+            print("You've already guessed this letter.")
+            return hidden_word, attempts, letters_attempted
+        else:
+            print("Please, enter a lowercase letter from the English alphabet.")
+            return hidden_word, attempts, letters_attempted
+    letters_attempted.append(guess)
     if guess in word and guess not in hidden_word:
         for i in range(len(word)):
             if word[i] == guess:
@@ -55,7 +72,7 @@ def process_user_guess(
         else:
             print("That letter doesn't appear in the word.")
         attempts -= 1
-    return hidden_word, attempts
+    return hidden_word, attempts, letters_attempted
 
 
 def print_bye(word: str, hidden_word: str) -> None:
@@ -65,7 +82,7 @@ def print_bye(word: str, hidden_word: str) -> None:
     :param hidden_word: the hidden word with the user attempts
     """
     if word == hidden_word:
-        print("You guessed the word!")
+        print(f"You guessed the word {word}!")
         print("You survived!")
     else:
         print("You lost!")
@@ -74,6 +91,7 @@ def print_bye(word: str, hidden_word: str) -> None:
 def main() -> None:
     """The main function of the game."""
     attempts = 8
+    letters_attempted = []
     show_title()
     list_of_words = ["python", "java", "swift", "javascript"]
     word = choose_word(list_of_words)
@@ -81,7 +99,9 @@ def main() -> None:
     while attempts > 0 and hidden_word != word:
         print_hidden_word(hidden_word)
         guess = input("Input a letter: > ")
-        hidden_word, attempts = process_user_guess(word, hidden_word, guess, attempts)
+        hidden_word, attempts, letters_attempted = process_user_guess(
+            word, hidden_word, guess, attempts, letters_attempted
+        )
     print_bye(word, hidden_word)
 
 
