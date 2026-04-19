@@ -12,10 +12,10 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 ## 📊 Progress
 
-![Topics](<https://img.shields.io/badge/Topics_Completed-72%2F273_(26.4%25)-blue>)
-![Core Topics](<https://img.shields.io/badge/Applied_Core-63%2F220_(29.6%25)-blueviolet>)
+![Topics](<https://img.shields.io/badge/Topics_Completed-77%2F274_(28.1%25)-blue>)
+![Core Topics](<https://img.shields.io/badge/Applied_Core-63%2F220_(31.7%25)-blueviolet>)
 ![Graduate Projects](https://img.shields.io/badge/Graduate_Projects-0%2F1-lightgrey)
-![Projects](<https://img.shields.io/badge/Projects_Completed-7%2F43_(16.3%25)-success>)
+![Projects](<https://img.shields.io/badge/Projects_Completed-8%2F43_(18.6%25)-success>)
 
 ---
 
@@ -38,12 +38,12 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 ### 🟡 Medium
 
 - ✅ [Hangman](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Medium/hangman): **Completed**
+- 🚧 [Dominoes](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Medium/dominoes): _In Progress_
 - ⏳ Currency Converter: _Not Started_
 - ⏳ Rock-Paper-Scissors: _Not Started_
 - ⏳ Simple Tic-Tac-Toe with Python: _Not Started_
 - ⏳ Markdown Editor: _Not Started_
 - ⏳ Learning Progress Tracker: _Not Started_
-- ⏳ Dominoes: _Not Started_
 - ⏳ Honest Calculator: _Not Started_
 - ⏳ Web Scraper: _Not Started_
 - ⏳ File Manager: _Not Started_
