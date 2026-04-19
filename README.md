@@ -37,7 +37,7 @@ This repository contains all the projects I’ve completed as part of the [Pytho
 
 ### 🟡 Medium
 
-- 🚧 Hangman: _In Progress_
+- ✅ [Hangman](https://github.com/rkeppler42/JetBrainsAcademy-Python/tree/main/Medium/hangman): **Completed**
 - ⏳ Currency Converter: _Not Started_
 - ⏳ Rock-Paper-Scissors: _Not Started_
 - ⏳ Simple Tic-Tac-Toe with Python: _Not Started_
