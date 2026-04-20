@@ -1,6 +1,11 @@
 import random
 
 
+def print_header() -> None:
+    """Prints the header of the game."""
+    print("=" * 70)
+
+
 def generate_dominoes() -> list:
     """Generates the dominoes that will take part in the game.
 
@@ -95,15 +100,24 @@ def print_status(
     :param domino_snake: the domino snake piece
     :param first_player: the player who starts the game
     """
-    print(f"Stock pieces: {stock_pieces}")
-    print(f"Computer pieces: {computer_pieces}")
-    print(f"Player pieces: {user_pieces}")
-    print(f"Domino snake: {[domino_snake]}")
-    print(f"Status: {first_player}")
+    print(f"Stock size: {len(stock_pieces)}")
+    print(f"Computer pieces: {len(computer_pieces)}")
+    print()
+    print(domino_snake)
+    print()
+    print("Your pieces:")
+    for i, piece in enumerate(user_pieces):
+        print(f"{i + 1}:{piece}")
+    print()
+    if first_player == "player":
+        print("Status: It's your turn to make a move. Enter your command.")
+    else:
+        print("Status: Computer is about to make a move. Press Enter to continue...")
 
 
 def main() -> None:
     """Entry point of the game setup"""
+    print_header()
     dominoes = generate_dominoes()
     snake = None
     while snake is None:

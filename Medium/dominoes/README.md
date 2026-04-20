@@ -8,7 +8,7 @@ The goal is to progressively build a fully playable domino game against the comp
 ## 🚀 Project Progress
 
 - [x] **Stage 1** — Setting Up the Game
-- [ ] **Stage 2** — The Interface
+- [x] **Stage 2** — The Interface
 - [ ] **Stage 3** — Playing the Game
 - [ ] **Stage 4** — Enforcing Rules
 - [ ] **Stage 5** — The AI
